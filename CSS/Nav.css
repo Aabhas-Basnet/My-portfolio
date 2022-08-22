@@ -15,7 +15,7 @@ nav{
  
  display: flex;
  background: #5D5C61;
- z-index: 999;
+ z-index: 5;
  line-height:60px;
  box-shadow: -2px 23px 53px 15px rgba(0,0,0,0.75);
 -webkit-box-shadow: -2px 23px 53px 15px rgba(0,0,0,0.75);
@@ -104,6 +104,7 @@ nav ul li a.active{
 	 cursor:pointer;
 	 padding-right:30px;
 	 float: right;
+	 z-index: 999;
    }
 
    
@@ -135,4 +136,14 @@ nav ul li a.active{
 	transition: max-height 0.5s;
    }
    
+
+.box img{
+  width:80px;
 }
+
+.box img:hover{
+ width: 100px;
+}
+
+}
+
