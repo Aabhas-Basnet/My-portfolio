@@ -75,3 +75,6 @@ jQuery.fn.extend({
         });
     }
 });
+
+
+history.scrollRestoration = 'manual';
