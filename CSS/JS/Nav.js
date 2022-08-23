@@ -20,6 +20,8 @@ function menutoggle(){
  }
 }
 
+if (screen.width >= 1200) {
+	console.log(screen.width);
 
 jQuery(function($){
 	var topMenuHeight = $("#desktop-nav").outerHeight();
@@ -76,5 +78,9 @@ jQuery.fn.extend({
     }
 });
 
+}else{
+	var R = document.getElementById("home");
+	R.removeClass("active");
+}
 
 history.scrollRestoration = 'manual';
